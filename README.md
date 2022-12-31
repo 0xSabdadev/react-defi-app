@@ -3,9 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 <p align="center">
-  <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
-    <img width="180" src="https://github.com/0xSabdadev/react-redux-tesla-clone-app/blob/master/public/images/logo.svg" alt="Vite logo">
-  </a>
+   <svg>
+  <img width="180" src="https://i.ibb.co/g7tvf0Z/giphy.gif" alt="react-delay-5" />
+ </svg>
 </p>
 <br/>
 <p align="center">
