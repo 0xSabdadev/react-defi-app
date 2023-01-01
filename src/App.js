@@ -8,6 +8,8 @@ import Card from './components/Card'
 import wallet1 from './assets/wallet1.svg'
 import insurance1 from './assets/insurance1.svg'
 import profit1 from './assets/profit1.svg'
+import SocialMediaPromotion from './components/SocialMediaPromotion'
+import DevSection from './components/DevSection'
 
 function App() {
     const features = [
@@ -49,6 +51,8 @@ function App() {
                     )
                 })}
             </div>
+            <DevSection />
+            <SocialMediaPromotion />
         </div>
     )
 }

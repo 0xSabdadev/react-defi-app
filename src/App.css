@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .home {
   background: linear-gradient(180deg, #12122e 0%, #272764 100%);
   line-height: 38px;
@@ -107,7 +111,6 @@ span.highlighted {
 }
 
 .hero-section-container {
-  margin-top: 40px;
   font-weight: 500;
   line-height: 38px;
   width: 95%;
@@ -116,6 +119,12 @@ span.highlighted {
   justify-content: space-between;
   align-items: stretch;
   align-self: flex-end;
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-section-container {
+    margin-top: 40px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -436,6 +445,12 @@ p {
   gap: 2em;
 }
 
+@media only screen and (min-width: 1200px) {
+  .features-list-container {
+    margin-top: 80px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .features-list-container {
     grid-template-columns: 1fr;
@@ -503,6 +518,10 @@ p {
   align-items: flex-start;
 }
 
+.dev-section-container .dev-section-wrapper .dev-section-text h2 {
+  margin-bottom: 0;
+}
+
 .dev-section-container .dev-section-wrapper .dev-section-image {
   display: flex;
   justify-content: center;
@@ -512,8 +531,14 @@ p {
   max-height: 300px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .dev-section-container .dev-section-wrapper .dev-section-image img {
+    margin-left: 100px;
+  }
+}
+
 .dev-section-container .dev-section-wrapper .btn-wrapper button {
-  margin: 0 10px;
+  margin: 0 10px 0 0;
 }
 
 .blog-section-container {
