@@ -11,6 +11,7 @@ import profit1 from './assets/profit1.svg'
 import SocialMediaPromotion from './components/SocialMediaPromotion'
 import DevSection from './components/DevSection'
 import BlogSection from './components/BlogSection'
+import Footer from './components/Footer'
 
 function App() {
     const features = [
@@ -55,6 +56,7 @@ function App() {
             <DevSection />
             <SocialMediaPromotion />
             <BlogSection />
+            <Footer />
         </div>
     )
 }
